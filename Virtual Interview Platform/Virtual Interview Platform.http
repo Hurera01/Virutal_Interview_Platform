@@ -1,0 +1,6 @@
+@Virtual_Interview_Platform_HostAddress = http://localhost:5264
+
+GET {{Virtual_Interview_Platform_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

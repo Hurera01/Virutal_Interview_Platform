@@ -1,0 +1,6 @@
+﻿namespace Virtual_Interview_Platform.Services.Interface
+{
+    public interface CandidateExperienceInterface
+    {
+    }
+}

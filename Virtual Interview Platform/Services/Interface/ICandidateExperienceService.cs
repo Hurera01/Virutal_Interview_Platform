@@ -8,6 +8,8 @@ namespace Virtual_Interview_Platform.Services.Interface
         Task DeleteCandidateExperience(int candidateExperienceId);
         Task UpdateCandidateExperience(CandidateExperience candidateExperience);
         Task<CandidateExperience> GetCandidateExperienceById(int candidateExperienceId);
-        Task<List<CandidateExperience>> GetAllCandidateExperiences();
+        Task<List<CandidateExperience>> GetAllCandidateExperiencesByCandidateId(int candidateId);
+        
+
     }
 }

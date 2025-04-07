@@ -49,8 +49,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -59,7 +67,7 @@
               "RelativeDocumentMoniker": "Virtual Interview Platform\\Services\\Implementation\\CandidateEducationService.cs",
               "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\CandidateEducationService.cs",
               "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\CandidateEducationService.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAwHwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAqwHwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T11:35:50.905Z",
               "EditorCaption": ""
@@ -74,8 +82,7 @@
               "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\CandidateExperienceService.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAAwHUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T11:34:38.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T11:34:38.068Z"
             },
             {
               "$type": "Document",
@@ -87,8 +94,7 @@
               "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\CandidateService.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAAwHQAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T11:33:10.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T11:33:10.72Z"
             },
             {
               "$type": "Document",
@@ -100,8 +106,7 @@
               "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\RecruiterService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T11:30:18.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T11:30:18.27Z"
             },
             {
               "$type": "Document",
@@ -113,8 +118,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Microsoft.Common.props",
               "ViewState": "AgIAADIAAAAAAAAAAAASwEkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-04-07T11:25:43.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T11:25:43.641Z"
             },
             {
               "$type": "Document",
@@ -126,8 +130,7 @@
               "RelativeToolTip": "Virtual Interview Platform\\Services\\Interface\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:58:50.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T10:58:50.837Z"
             },
             {
               "$type": "Document",
@@ -139,8 +142,7 @@
               "RelativeToolTip": "Virtual Interview Platform\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:46:34.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T10:46:34.708Z"
             },
             {
               "$type": "Document",
@@ -152,16 +154,7 @@
               "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\UserService.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAuwJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:42:48.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-04-07T10:42:48.711Z"
             },
             {
               "$type": "Document",
@@ -173,8 +166,7 @@
               "RelativeToolTip": "Virtual Interview Platform\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:35:20.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T10:35:20.033Z"
             },
             {
               "$type": "Document",
@@ -186,8 +178,7 @@
               "RelativeToolTip": "Virtual Interview Platform\\Model\\Candidate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:35:17.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T10:35:17.772Z"
             }
           ]
         }

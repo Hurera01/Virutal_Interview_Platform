@@ -3,24 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\services\\implementation\\candidateeducationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\services\\implementation\\candidateeducationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\services\\implementation\\candidateexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\services\\implementation\\candidateexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\services\\implementation\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\services\\implementation\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\model\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\model\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\services\\implementation\\recruiterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\services\\implementation\\recruiterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\model\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\model\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Microsoft.Common.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|c:\\users\\shahmeer-1127\\documents\\github\\virutal_interview_platform\\virtual interview platform\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766EF536-8479-4409-ABE5-9B85EA942735}|Virtual Interview Platform\\Virtual Interview Platform.csproj|solutionrelative:virtual interview platform\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +49,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandidateEducationService.cs",
+              "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\CandidateEducationService.cs",
+              "RelativeDocumentMoniker": "Virtual Interview Platform\\Services\\Implementation\\CandidateEducationService.cs",
+              "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\CandidateEducationService.cs",
+              "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\CandidateEducationService.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwHwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:35:50.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CandidateExperienceService.cs",
+              "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\CandidateExperienceService.cs",
+              "RelativeDocumentMoniker": "Virtual Interview Platform\\Services\\Implementation\\CandidateExperienceService.cs",
+              "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\CandidateExperienceService.cs",
+              "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\CandidateExperienceService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwHUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:34:38.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CandidateService.cs",
+              "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\CandidateService.cs",
+              "RelativeDocumentMoniker": "Virtual Interview Platform\\Services\\Implementation\\CandidateService.cs",
+              "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\CandidateService.cs",
+              "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\CandidateService.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwHQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:33:10.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecruiterService.cs",
+              "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\RecruiterService.cs",
+              "RelativeDocumentMoniker": "Virtual Interview Platform\\Services\\Implementation\\RecruiterService.cs",
+              "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\RecruiterService.cs",
+              "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\RecruiterService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:30:18.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.Common.props",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Microsoft.Common.props",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Microsoft.Common.props",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Microsoft.Common.props",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Microsoft.Common.props",
+              "ViewState": "AgIAADIAAAAAAAAAAAASwEkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-07T11:25:43.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "Virtual Interview Platform\\Services\\Interface\\IUserService.cs",
@@ -47,26 +131,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Model\\User.cs",
               "RelativeDocumentMoniker": "Virtual Interview Platform\\Model\\User.cs",
               "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Model\\User.cs",
               "RelativeToolTip": "Virtual Interview Platform\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T10:46:34.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\UserService.cs",
               "RelativeDocumentMoniker": "Virtual Interview Platform\\Services\\Implementation\\UserService.cs",
-              "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\UserService.cs*",
-              "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\UserService.cs*",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAAwJUAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Services\\Implementation\\UserService.cs",
+              "RelativeToolTip": "Virtual Interview Platform\\Services\\Implementation\\UserService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAuwJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T10:42:48.711Z",
               "EditorCaption": ""
@@ -81,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Virtual Interview Platform\\Data\\ApplicationDbContext.cs",
@@ -94,13 +178,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Candidate.cs",
               "DocumentMoniker": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Model\\Candidate.cs",
               "RelativeDocumentMoniker": "Virtual Interview Platform\\Model\\Candidate.cs",
               "ToolTip": "C:\\Users\\shahmeer-1127\\Documents\\GitHub\\Virutal_Interview_Platform\\Virtual Interview Platform\\Model\\Candidate.cs",
               "RelativeToolTip": "Virtual Interview Platform\\Model\\Candidate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T10:35:17.772Z",
               "EditorCaption": ""

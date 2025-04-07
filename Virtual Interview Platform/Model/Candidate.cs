@@ -14,3 +14,4 @@ namespace Virtual_Interview_Platform.Model
         public ICollection<CandidateExperience> CandidateExperiences { get; set; }
     }
 }
+

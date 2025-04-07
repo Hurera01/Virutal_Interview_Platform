@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Virtual Interview Platform.props" />
+</Project>

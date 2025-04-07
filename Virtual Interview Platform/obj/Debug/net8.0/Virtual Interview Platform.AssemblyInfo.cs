@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Virtual Interview Platform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85f926082d7d0368899108b88354374ad29c26e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2f77c870caa9543c39e775ba3d292829e542dd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Virtual Interview Platform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Virtual Interview Platform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

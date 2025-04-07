@@ -1,5 +1,5 @@
-using Virtual_Interview_Platform.Services.Implementation;
-using Virtual_Interview_Platform.Services.Interface;
+using Microsoft.EntityFrameworkCore;
+using Virtual_Interview_Platform.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +16,10 @@ builder.Services.AddScoped<IRecruiterService, RecruiterService>();
 
 
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
 var app = builder.Build();
 

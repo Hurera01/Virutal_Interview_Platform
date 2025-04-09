@@ -100,7 +100,19 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*.csproj.user
+# Ignore build output folders
+bin/
+obj/
 
+# Ignore generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.json
+*.props
+*.targets
 # Chutzpah Test files
 _Chutzpah*
 

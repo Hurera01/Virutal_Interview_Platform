@@ -9,7 +9,5 @@ namespace Virtual_Interview_Platform.Services.Interface
         Task UpdateCandidateExperience(CandidateExperience candidateExperience);
         Task<CandidateExperience> GetCandidateExperienceById(int candidateExperienceId);
         Task<List<CandidateExperience>> GetAllCandidateExperiencesByCandidateId(int candidateId);
-        
-
     }
 }

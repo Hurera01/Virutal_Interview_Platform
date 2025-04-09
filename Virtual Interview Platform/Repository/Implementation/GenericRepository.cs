@@ -9,10 +9,10 @@ namespace Virtual_Interview_Platform.Repository.Implementation
         private readonly ApplicationDbContext? _context;
         private readonly DbSet<T> _dbSet;
 
-        public GenericRepository(ApplicationDbContext? context, DbSet<T> dbSet)
+        public GenericRepository(ApplicationDbContext? context)
         {
             _context = context;
-            _dbSet = dbSet;
+            _dbSet = _context.Set<T>();
         }
 
         public async Task AddAsync(T entity)

@@ -13,8 +13,8 @@ namespace Virtual_Interview_Platform.Helper
             services.AddScoped<ICandidateService, CandidateService>();
             services.AddScoped<ICandidateExperienceService, CandidateExperienceService>();
             services.AddScoped<ICandidateEducationService, CandidateEducationService>();
-            services.AddScoped<IRecruiterService, RecruiterService>();
-            services.AddScoped<RecruiterTestService>();
+            services.AddScoped<IRecruiterServiceold, RecruiterServiceold>();
+            services.AddScoped<RecruiterService>();
             services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
         }
 

@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 builder.Services.RegisterRepositories();
 builder.Services.RegisterServices();
 
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
 // Register Swagger generator (if needed).
 builder.Services.AddEndpointsApiExplorer();  // Adds basic API explorer support for Swagger
 builder.Services.AddSwaggerGen();  // Adds Swagger generation to the DI container

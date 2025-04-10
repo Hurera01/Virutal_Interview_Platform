@@ -15,9 +15,13 @@ namespace Virtual_Interview_Platform.Services.Implementation
             this._operationHandler = new AsyncOperationHandler();
         }
 
-        public Task<ApiResponse<T>> AddAsync(T entity)
+        public async Task<ApiResponse<T>> AddAsync(T entity)
         {
-            throw new NotImplementedException();
+            return await _operationHandler.ExecuteAsync(async () =>
+            {
+                await _repository.AddAsync(entity);
+                return entity;
+            }, MessageHelper.Success(typeof(T).Name, "Created"));
         }
 
         public Task<ApiResponse<T>> Delete(int id)
@@ -34,9 +38,13 @@ namespace Virtual_Interview_Platform.Services.Implementation
             }, $"{typeof(T).Name} Fetched successfully.");
         }
 
-        public Task<ApiResponse<T>> GetByIdAsync(int id)
+        public async Task<ApiResponse<T>> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _operationHandler.ExecuteAsync(async () =>
+            {
+                var result = await _repository.GetByIdAsync(id);
+                return result ?? throw new KeyNotFoundException(MessageHelper.NotFound(typeof(T).Name));
+            });
         }
 
         public Task<ApiResponse<T>> Update(int id, T entity)

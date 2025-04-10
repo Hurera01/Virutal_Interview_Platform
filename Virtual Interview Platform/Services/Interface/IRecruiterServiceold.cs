@@ -2,7 +2,7 @@
 
 namespace Virtual_Interview_Platform.Services.Interface
 {
-    public interface IRecruiterService
+    public interface IRecruiterServiceold
     {
         Task CreateRecruiter(Recruiter recruiter);
         Task DeleteRecruiter(int recruiterId);

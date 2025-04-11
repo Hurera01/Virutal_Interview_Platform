@@ -10,6 +10,7 @@ namespace Virtual_Interview_Platform.Helper
         {
             CreateMap<CreateRecruiterDto, Recruiter>().ReverseMap();
             CreateMap<GetRecruitersDto, Recruiter>().ReverseMap();
+            CreateMap<UpdateRecruiterDto, Recruiter>().ReverseMap();
             //CreateMap<Recruiter, CreateRecruiterDto>();
 
             //CreateMap(typeof(IEnumerable<>), typeof(IEnumerable<>));

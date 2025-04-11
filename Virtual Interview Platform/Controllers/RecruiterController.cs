@@ -79,7 +79,44 @@ namespace Virtual_Interview_Platform.Controllers
             }
         }
 
+        [HttpDelete]
+        public async Task<ActionResult<DeleteRecruiterDto>> DeleteRecruiter(int id)
+        {
+            try
+            {
+                var result = await _genericService.Delete(id);
+                if (!result.Success)
+                {
+                    return NotFound(result.Message);
+                }
+                return Ok(result.Message);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, MessageHelper.ErrorOccured(ex.Message));
+            }
+        }
 
+        [HttpPut]
+        public async Task<ActionResult<UpdateRecruiterDto>> UpdateRecruiter(int id, UpdateRecruiterDto updateRecruiterDto)
+        {
+            try
+            {
+                var mapEntity = _mapper.Map<Recruiter>(updateRecruiterDto);
+                var result = await _genericService.Update(id, mapEntity);
+                if (!result.Success) 
+                {
+                    return NotFound(result.Message);
+                }  
+
+                var updateDto = _mapper.Map<UpdateRecruiterDto>(result.Data);
+                return Ok(result.Message);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, MessageHelper.ErrorOccured(ex.Message));
+            }
+        }
     }
 
 }

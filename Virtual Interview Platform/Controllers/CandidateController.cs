@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Virtual_Interview_Platform.DTO.RecruiterDto;
+using Virtual_Interview_Platform.DTO.CandidateDto;
 using Virtual_Interview_Platform.Helper;
 using Virtual_Interview_Platform.Model;
 using Virtual_Interview_Platform.Services.Interface;
@@ -10,29 +10,29 @@ namespace Virtual_Interview_Platform.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RecruiterController : ControllerBase
+    public class CandidateController : ControllerBase
     {
-        private readonly IGenericService<Recruiter> _genericService;
+        private readonly IGenericService<Candidate> _genericService;
         private readonly IMapper _mapper;
 
-        public RecruiterController(IGenericService<Recruiter> genericService, IMapper mapper)
+        public CandidateController(IGenericService<Candidate> genericService, IMapper mapper)
         {
             _genericService = genericService;
             _mapper = mapper;
         }
 
         [HttpPost]
-        public async Task<ActionResult<CreateRecruiterDto>> CreateRecruiter([FromBody] CreateRecruiterDto createRecruiterDto)
+        public async Task<ActionResult<CreateCandidateDto>> CreateCandidate([FromBody] CreateCandidateDto createCandidateDto)
         {
             try
             {
-                var mappedEntity = _mapper.Map<Recruiter>(createRecruiterDto);
+                var mappedEntity = _mapper.Map<Candidate>(createCandidateDto);
                 var result = await _genericService.AddAsync(mappedEntity);
                 if (!result.Success)
                 {
                     return Conflict(result.Message);
                 }
-                var mappedDto = _mapper.Map<CreateRecruiterDto>(result.Data);
+                var mappedDto = _mapper.Map<CreateCandidateDto>(result.Data);
                 return Ok(mappedDto);
             }
             catch (Exception ex)
@@ -41,8 +41,8 @@ namespace Virtual_Interview_Platform.Controllers
             }
         }
 
-        [HttpGet("Recruiters")]
-        public async Task<ActionResult<IEnumerable<GetRecruitersDto>>> GetRecruiters()
+        [HttpGet("Candidates")]
+        public async Task<ActionResult<IEnumerable<GetCandidateDto>>> GetCandidates()
         {
             try
             {
@@ -51,7 +51,7 @@ namespace Virtual_Interview_Platform.Controllers
                 {
                     return NotFound(result.Message);
                 }
-                var mappedDto = _mapper.Map<IEnumerable<GetRecruitersDto>>(result.Data);
+                var mappedDto = _mapper.Map<IEnumerable<GetCandidateDto>>(result.Data);
                 return Ok(mappedDto);
             }
             catch (Exception ex)
@@ -61,7 +61,7 @@ namespace Virtual_Interview_Platform.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<GetRecruitersDto>> GetRecruiter(int id)
+        public async Task<ActionResult<GetCandidateDto>> GetCandidate(int id)
         {
             try
             {
@@ -70,17 +70,17 @@ namespace Virtual_Interview_Platform.Controllers
                 {
                     return NotFound(result.Message);
                 }
-                var mappedDto = _mapper.Map<GetRecruitersDto>(result.Data);
+                var mappedDto = _mapper.Map<GetCandidateDto>(result.Data);
                 return Ok(mappedDto);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return StatusCode(500, MessageHelper.ErrorOccured(ex.Message));
             }
         }
 
         [HttpDelete]
-        public async Task<ActionResult<DeleteRecruiterDto>> DeleteRecruiter(int id)
+        public async Task<ActionResult<DeleteCandidateDto>> DeleteCandidate(int id)
         {
             try
             {
@@ -91,32 +91,31 @@ namespace Virtual_Interview_Platform.Controllers
                 }
                 return Ok(result.Message);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return StatusCode(500, MessageHelper.ErrorOccured(ex.Message));
             }
         }
 
         [HttpPut]
-        public async Task<ActionResult<UpdateRecruiterDto>> UpdateRecruiter(int id, UpdateRecruiterDto updateRecruiterDto)
+        public async Task<ActionResult<UpdateCandidateDto>> UpdateCandidate(int id, UpdateCandidateDto updateCandidateDto)
         {
             try
             {
-                var mapEntity = _mapper.Map<Recruiter>(updateRecruiterDto);
+                var mapEntity = _mapper.Map<Candidate>(updateCandidateDto);
                 var result = await _genericService.Update(id, mapEntity);
-                if (!result.Success) 
+                if (!result.Success)
                 {
                     return NotFound(result.Message);
-                }  
+                }
 
-                var updateDto = _mapper.Map<UpdateRecruiterDto>(result.Data);
+                var updateDto = _mapper.Map<UpdateCandidateDto>(result.Data);
                 return Ok(result.Message);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return StatusCode(500, MessageHelper.ErrorOccured(ex.Message));
             }
         }
     }
-
 }

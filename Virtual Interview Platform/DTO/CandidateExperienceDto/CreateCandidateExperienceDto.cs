@@ -1,4 +1,6 @@
-﻿namespace Virtual_Interview_Platform.DTO.CandidateExperienceDto
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Virtual_Interview_Platform.DTO.CandidateExperienceDto
 {
     public class CreateCandidateExperienceDto
     {
